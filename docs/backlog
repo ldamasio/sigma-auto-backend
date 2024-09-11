@@ -1,0 +1,92 @@
+Backlog do Projeto: Sistema da Rede Sigma
+Definição dos Módulos
+O sistema pode ser dividido em módulos de acordo com as funcionalidades especificadas:
+Controle de Veículos
+Controle de Operações (Compra e Venda)
+Controle de Pedidos
+Controle de Clientes
+Controle de Vendedores
+Controle de Montadoras
+
+1. Funcionalidades Básicas
+1.1. Controle de Veículos Disponíveis para Venda
+1.1.1. Criar interface para cadastro de veículos.
+1.1.2. Implementar funcionalidade para editar informações de veículos.
+1.1.3. Implementar funcionalidade para excluir veículos.
+1.1.4. Implementar funcionalidade para buscar veículos por diferentes critérios
+(placa, marca, modelo).
+1.1.5. Implementar funcionalidade para listar veículos ordenados por marca e
+modelo.
+1.2. Controle das Operações Realizadas
+1.2.1. Criar interface para cadastro de operações de compra e venda.
+1.2.2. Implementar funcionalidade para editar operações.
+1.2.3. Implementar funcionalidade para excluir operações.
+1.2.4. Implementar funcionalidade para buscar operações por número, data, cliente
+ou vendedor.
+1.2.5. Implementar funcionalidade para listar operações com detalhes dos clientes e
+veículos envolvidos.
+1.3. Controle dos Pedidos Feitos às Montadoras
+1.3.1. Criar interface para cadastro de pedidos.
+1.3.2. Implementar funcionalidade para editar pedidos.
+1.3.3. Implementar funcionalidade para excluir pedidos.
+1.3.4. Implementar funcionalidade para buscar pedidos por número, cliente,
+vendedor ou montadora.
+1.3.5. Implementar funcionalidade para listar pedidos.
+1.4. Controle dos Clientes
+1.4.1. Criar interface para cadastro de clientes.
+1.4.2. Implementar funcionalidade para editar informações de clientes.●
+1.4.3. Implementar funcionalidade para excluir clientes.
+1.4.4. Implementar funcionalidade para buscar clientes por CPF ou nome.
+1.4.5. Implementar funcionalidade para listar clientes em ordem alfabética.
+1.5. Controle dos Vendedores
+1.5.1. Criar interface para cadastro de vendedores.
+1.5.2. Implementar funcionalidade para editar informações de vendedores.
+1.5.3. Implementar funcionalidade para excluir vendedores.
+1.5.4. Implementar funcionalidade para buscar vendedores por código ou usuário.
+1.6. Controle das Montadoras
+1.6.1. Criar interface para cadastro de montadoras.
+1.6.2. Implementar funcionalidade para editar informações de montadoras.
+1.6.3. Implementar funcionalidade para excluir montadoras.
+1.6.4. Implementar funcionalidade para buscar montadoras por CNPJ ou marca.
+1.7. Menu de Opções
+1.7.1. Criar menu principal com opções para acessar cada módulo.
+1.7.2. Implementar navegação entre diferentes módulos.
+2. Armazenamento de Dados
+2.1. Implementação de Arquivos
+2.1.1. Criar arquivos para armazenamento de dados de veículos, operações,
+pedidos, clientes, vendedores e montadoras.
+2.1.2. Implementar funcionalidades para salvar e carregar dados utilizando o módulo
+pickle ou outro mecanismo de persistência.
+3. Validações e Consistência de Dados
+3.1. Validação de Dados
+3.1.1. Implementar validação de CPF para garantir formato e consistência.
+3.1.2. Implementar validação de datas para garantir formato correto.
+3.1.3. Implementar validação de valores numéricos e campos obrigatórios.
+4. Busca e Ordenação
+4.1. Funcionalidades de Busca
+4.1.1. Implementar busca eficiente por veículos, clientes, pedidos e operações.
+4.1.2. Implementar filtros para facilitar a busca (por exemplo, por data, cliente,
+vendedor).
+4.2. Funcionalidades de Ordenação●
+4.2.1. Implementar ordenação de listas de clientes por nome.
+4.2.2. Implementar ordenação de listas de veículos por marca e modelo.
+5. Interface e Usabilidade
+5.1. Design da Interface
+5.1.1. Criar interfaces amigáveis e intuitivas para interação com o sistema.
+5.1.2. Garantir que as interfaces permitam fácil acesso às funcionalidades principais.
+5.2. Mensagens de Erro e Confirmação
+5.2.1. Implementar mensagens de erro para entradas inválidas.
+5.2.2. Implementar mensagens de confirmação para ações críticas (como exclusão
+de dados).
+6. Testes e Garantia de Qualidade
+6.1. Testes Funcionais
+6.1.1. Realizar testes para cada funcionalidade implementada.
+6.1.2. Verificar a integração entre diferentes módulos.
+6.2. Testes de Usabilidade
+6.2.1. Realizar testes de usabilidade com usuários finais para garantir que a
+interface seja intuitiva e fácil de usar.
+6.3. Correção de Bugs
+6.3.1. Identificar e corrigir bugs encontrados durante os testes.
+7. Documentação
+7.1. Documentação do Sistema
+7.1.1. Criar documentação técnica para desenvolvedores.

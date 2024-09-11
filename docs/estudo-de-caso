@@ -1,0 +1,56 @@
+Estudo de caso
+REDE SIGMA DE AUTOMÓVEIS
+A Rede Sigma é uma empresa revendedora de automóveis, que pretende realizar a
+expansão de suas atividades inaugurando filiais que aumentem sua participação no
+território nacional. Comercializa veículos novos e usados, realizando operações de
+compra, venda, troca e financiamento por meio de empresa própria. Os veículos novos
+são encomendados às montadoras em nome dos clientes compradores e faturados de
+forma direta, de modo que a rede faz apenas a intermediação e, conforme o caso, o
+financiamento. Eventualmente, podem ser adquiridos veículos novos para fazer parte
+do estande da loja.
+Requisitos do sistema
+A Rede Sigma precisa de um sistema automatizado para controle de suas atividades,
+o qual, em uma primeira etapa, deve contemplar as seguintes funcionalidades:
+Controle dos veículos disponíveis para venda.
+Controle das operações realizadas, compra e venda, de modo que seja
+possível identificar os clientes e veículos envolvidos. Considera-se troca a
+compra e venda simultâneas, consistindo em duas operações separadas.
+Controle dos pedidos feitos às montadoras em nome dos clientes.
+Controle dos clientes. Nenhuma operação é realizada sem que haja um cliente
+envolvido.
+Controle dos vendedores. Nenhuma operação é realizada sem que haja um
+vendedor envolvido.
+Controle das montadoras com as quais possui parceria.
+O controle dos itens anteriores significa dizer que é possível incluir, alterar,
+buscar e excluir.
+Os financiamentos são realizados pela área financeira da Rede, que faz, inclusive,
+todo o controle financeiro, contas a pagar e a receber e recursos humanos, possuindo
+sistemas específicos para cada finalidade.
+Os principais atributos (campos) a serem considerados para cada objeto do sistema
+são, no mínimo, os descritos a seguir. Outros poderão ser utilizados, conforme
+necessidades e características da implementação.
+Clientes: CPF; nome; endereço (bairro, cidade e estado); telefone residencial; celular;
+renda.
+Vendedores: código; usuário. Demais dados estão registrados no sistema de recursos
+humanos.
+Veículos: número do chassi; placa; marca; modelo; ano de fabricação; ano do modelo;
+cor; valor.
+Operação de compra: número; data; cliente; vendedor; veículo; valor.
+Operação de venda: número; data; cliente; vendedor; veículo; valor de entrada; valor
+financiado; valor total.Pedidos: número; data; cliente; vendedor; montadora; modelo; ano; cor; acessórios;
+valor.
+Montadoras: CNPJ; razão social; marca; contato; telefone comercial; celular.
+Sua tarefa é projetar uma solução que contemple:
+um menu de opções que possibilite ao usuário escolher o módulo desejado;
+construir cada um dos módulos necessários à resolução do problema;
+aplicar o conceito de registros para tratar os atributos (campos) necessários;
+criar um arquivo para o armazenamento dos dados;
+implementar a consistência para entrada de dados, como datas, CPF, entre outros;
+implementar mecanismos eficientes para busca e ordenação da melhor forma
+possível, independentemente da ordem de entrada:
+oexibir uma lista de clientes com seus atributos (campos) em ordem
+alfabética;
+oexibir uma lista de veículos com seus atributos (campos) ordenados por
+marca e modelo.
+Sugerimos a implementação de índices que façam referência aos registros, de modo a
+facilitar a busca e ordenação.
